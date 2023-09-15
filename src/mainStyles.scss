@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+    color: white;
+    font-family: sans-serif;
+}
+.wrapper{
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+input{
+    font-size: 2em;
+    border: none;
+    padding-left: 10px;
+    &:focus-visible{
+        outline: none;
+        border: none;
+        box-shadow: 0 0 10px white;
+    }
+}
+p{
+    font-size: 1.5em;
+}
+button{
+    padding: 0px 10px;
+    width: 50%;
+    font-size: 2em;
+}
+.main_block{
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
